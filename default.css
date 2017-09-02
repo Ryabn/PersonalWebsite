@@ -1,0 +1,24 @@
+.coverPhoto{
+    background-image: url("images/coverpicture.jpg");
+    min-height: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profilePhoto{
+    display: block;
+    position: absolute;
+    vertical-align: middle;
+    
+}
+
+.contactMeLinks{
+    height:1300px;
+    background-color:black;
+    font-size:36px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
