@@ -1,10 +1,4 @@
-.coverPhoto{
-    background-image: url("images/coverpicture.jpg");
-    min-height: 5000px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
+
 
 .textProperties{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -14,7 +8,18 @@
     color: white;
 }
 
+#coverPhoto{
+    background-image: url("images/coverpicture.jpg");
+    min-height: 2000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 #profilePhoto{
+    display: inline-block;
+	position: relative;
+    /*
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,12 +27,23 @@
     margin-left: -150px;
     width: 300px;
     height: 300px;
+    */
 }
 
 #skillSetDescription{
-    padding-top: 800px;
+    padding-top: 600px;
+    margin-left: -200px;
+    opacity : 0;
 }
 
 #contactMeLinks{
     padding-top: 1600px;
 }
+
+#firstTrigger{
+    min-height: 200px;
+    
+    
+    
+}
+
