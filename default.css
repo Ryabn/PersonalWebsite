@@ -6,22 +6,35 @@
     background-size: cover;
 }
 
-.profilePhoto{
+.contactMeLinks{
+    height:1300px;
+    background-color:#00000000;
+    font-size:36px;
+    color: white;
+
+    text-align: center;
+}
+
+.linkText{
+    
+    text-decoration: none;
+}
+
+#profilePhoto{
     position: absolute;
     top: 50%;
     left: 50%;
     margin-top: -220px;
     margin-left: -207px;
     opacity: 1;
-
 }
 
-.contactMeLinks{
-    height:1300px;
-    background-color:black;
-    font-size:36px;
-    color: white;
-    padding-top: 100px;
-    text-align: center;
+#skillSetDescription{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 220px;
+    margin-left: -207px;
+    opacity: 1;
+    
 }
-
