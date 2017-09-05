@@ -1,40 +1,33 @@
 .coverPhoto{
     background-image: url("images/coverpicture.jpg");
-    min-height: 1600px;
+    min-height: 5000px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-.contactMeLinks{
-    height:1300px;
-    background-color:#00000000;
+.textProperties{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size:36px;
-    color: white;
-
     text-align: center;
-}
-
-.linkText{
-    
     text-decoration: none;
+    color: white;
 }
 
 #profilePhoto{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -220px;
-    margin-left: -207px;
-    opacity: 1;
+    margin-top: -175px;
+    margin-left: -150px;
+    width: 300px;
+    height: 300px;
 }
 
 #skillSetDescription{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: 220px;
-    margin-left: -207px;
-    opacity: 1;
-    
+    padding-top: 800px;
+}
+
+#contactMeLinks{
+    padding-top: 1600px;
 }
