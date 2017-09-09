@@ -10,22 +10,29 @@ $(function(){
     
     var profilePhotoTween = TweenMax.to("#profilePhoto", 100, {x: -200});
     var profileDescriptionTween = TweenMax.to("#profileDescription", 100, {opacity: 1});
+    var skillSetDescriptionTween = TweenMax.to("#skillSetDescription", 100, {opacity: 1});
     
     new ScrollMagic.Scene({
         duration: 400,
-        offset: 100
+        offset: 0
     })
     .setPin("#profilePhoto")
     .setTween(profilePhotoTween)
-    .addIndicators({name: "400"})
     .addTo(controller);
     
     new ScrollMagic.Scene({
-		duration: 250,
-        offset: 400
+		duration: 225,
+        offset: 175
 	})
 	.setPin("#profileDescription")
     .setTween(profileDescriptionTween)
-    .addIndicators({name: "250"}) 
+	.addTo(controller);
+    
+    new ScrollMagic.Scene({
+		duration: 225,
+        offset: 700
+	})
+	.setPin("#skillSetDescription")
+    .setTween(skillSetDescriptionTween)
 	.addTo(controller);
 });

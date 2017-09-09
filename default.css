@@ -18,27 +18,31 @@
 	position: relative;
     left: 50%;
     margin-left: -150px;
-    vertical-align: middle;
+    margin-top: 200px;
     width: 300px;
     height: auto;
 }
 
 #profileDescription{
+	position: absolute;
     background-color: black;
     border-radius: 30px;
     border-color: white;
     border-width: 5px;
+    border-style: solid;
     height: 150px;
     width: 400px;
     margin-top: -450px;
-    margin-left: 400px;
-    opacity: 1;
+    margin-left: 700px;
+    opacity: 0;
     padding-top: 10px;
 }
-#secondTrigger{
-    padding-top: 800px;
-    height: 0px;
-}
-#firstTrigger{
-    height: 300px;
+#skillSetDescription{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    margin-left: -300px;
+    width: 500px;
+    opacity: 0;
+    
 }
