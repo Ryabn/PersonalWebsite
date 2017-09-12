@@ -20,7 +20,7 @@ $(function(){
     .addTo(controller);
     
     new ScrollMagic.Scene({
-		duration: "40%",
+		duration: "40%"
 	})
 	.setPin("#profileDescription")
     .setTween(profileDescriptionTween)

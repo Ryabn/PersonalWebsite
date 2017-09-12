@@ -9,9 +9,8 @@ body{
     color: white;
 }
 #coverPhoto{
-    
-    background-image: url("images/coverpicture.jpg");
-    height: 2000px;
+    background-image: url("../images/coverpicture.jpg");
+    height: 130vh;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -43,7 +42,7 @@ body{
     background-color: aliceblue;
     padding-top: 100px;
     border-top: 20px solid black;
-    top: 100%;
+    top: 120%;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -51,7 +50,7 @@ body{
 }
 #contactMeLinks{
     position: absolute;
-    top: 180%;
+    top: 220%;
     width: 100%;
     opacity: 1;
     text-decoration: none;
