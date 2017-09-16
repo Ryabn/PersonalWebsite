@@ -7,10 +7,13 @@ $(function(){
     
     var controller = new ScrollMagic.Controller();
     
-    var profilePhotoTween = TweenMax.to("#profilePhoto", 100, {x: -200});
-    var profileDescriptionTween = TweenMax.to("#profileDescription", 100, {x: 50, opacity: 1});
-    //var skillSetDescriptionTween = TweenMax.to("#skillSetDescription", 100);
-    //var contactMeLinksTween = TweenMax.to("#contactMeLinks", 100, {opacity: 1});
+    if(window.matchMedia("(max-width: 600px)").matches){
+        var profilePhotoTween = TweenMax.to("#profilePhoto", 100, {y: -150});
+        var profileDescriptionTween = TweenMax.to("#profileDescription", 100, {y: 125, opacity: 1});
+    }else{
+        var profilePhotoTween = TweenMax.to("#profilePhoto", 100, {x: -200});
+        var profileDescriptionTween = TweenMax.to("#profileDescription", 100, {x: 50, opacity: 1});
+    }
     
     new ScrollMagic.Scene({
         duration: "40%"
@@ -20,7 +23,7 @@ $(function(){
     .addTo(controller);
     
     new ScrollMagic.Scene({
-		duration: "40%"
+		duration: "40%",
 	})
 	.setPin("#profileDescription")
     .setTween(profileDescriptionTween)

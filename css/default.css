@@ -1,6 +1,20 @@
 body{
     margin: 0;
 }
+@media only screen and (max-width: 600px) {
+    #skillSetDescription{
+        margin-top: 80px;
+    }
+    #coverPhoto{
+        height: 800px;
+    }
+    #profileDescription{
+        margin-left: -200px;
+    }
+    .textProperties span{
+        
+    }
+}
 
 .textProperties{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -60,7 +74,7 @@ body{
     padding-top: 20%;
 }
 .textProperties span{
-    font-weight: bold;
     color: black;
     font-size: 48px;
+    font-weight: bold;
 }
