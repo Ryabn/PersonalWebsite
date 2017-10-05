@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 @media only screen and (max-width: 600px) {
     #skillSetDescription{
@@ -14,7 +15,6 @@ body{
 }
 
 .textProperties{
-    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
 #coverPhoto{
@@ -49,7 +49,7 @@ body{
 }
 .skillSection{
     border-top: 15px solid blueviolet;
-    padding-top: 40px;
+    padding-top: 10px;
     background-color: aliceblue;
 }
 .skillTitle{
@@ -58,16 +58,23 @@ body{
     font-size: 72px;
 }
 .skillSubSection{
-    color: blue;
+    color: darkblue;
     font-size: 16px;
     border: 5px solid orange;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 .skillSubSection span{
     color: black;
     font-size: 32px;
-    padding-left: 20px;
+    padding-left: 25px;
+}
+.skillSubList{
+    font-size: 24px;
+}
+.mainProject{
+    border: 5px solid greenyellow;
 }
 /*
 #skillSetDescription{
