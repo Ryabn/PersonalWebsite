@@ -3,7 +3,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-color: aliceblue;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 920px) {
     #skillSetDescription{
         margin-top: 80px;
     }
@@ -41,7 +41,7 @@ body{
     font-size:36px;
     color: white;
     border-radius: 30px;
-    border: 10px solid white;
+    border: 5px solid white;
     top: 30%;
     left: 50%;
     height: 160px;
@@ -50,17 +50,13 @@ body{
 }
 .skillSection{
     border-top: 15px solid blueviolet;
-    padding-top: 10px;
-}
-.skillTitle{
-    margin-bottom: 40px;
-    font-weight: bolder;
-    font-size: 72px;
+    padding-top: 20px;
 }
 .skillSubSection{
-    color: darkblue;
+    color: white;
+    background-color: #4981d8;
     font-size: 24px;
-    border: 5px solid orange;
+    border: 10px solid orange;
     border-radius: 15px 50px;
     padding: 0px 25px 20px 20px;
     margin-bottom: 20px;
@@ -68,19 +64,55 @@ body{
 
 .skillSubSection span{
     font-weight: bold;
-    color: black;
+    color: white;
     font-size: 48px;
     padding-left: 35px;
 }
 .skillSubList{
+    font-size: 26px;
+}
+.projectMainImage{
+    margin-bottom: 20px;
+}
+.projectMain{
+    padding: 15px 25px 20px 20px;
+    border: 10px solid greenyellow;
+    border-radius: 50px 15px;
+    color: #ffdd93;
+    background-color: #4f688e;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.projectSubs{
+    color: #ffc851;
+    border: 10px solid lightblue;
+    background-color: #133a77;
+    margin-bottom: 20px;
+}
+.ps1{
+    padding: 15px 25px 20px 20px;
+    border-radius: 15px 15px 15px 50px;
+}
+.ps2{
+    padding: 15px 25px 20px 20px;
+    border-radius: 15px;
+}
+.ps3{
+    padding: 15px 25px 20px 20px;
+    border-radius: 15px 15px 50px 15px;
+}
+.contactBG{
+    background-color: #441663;
+}
+.contactMe{
+    padding: 20px;
+    color: #f6fca1;
     font-size: 32px;
 }
-.mainProject{
-    padding: 15px 25px 20px 20px;
-    border: 5px solid greenyellow;
-    border-radius: 50px 15px;
-    color: darkblue;
-    font-size: 20px;
+.contactMe span{
+    color: #fffa00;
+    font-size: 48px;
+    font-weight: bold;
 }
 /*
 #skillSetDescription{

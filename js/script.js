@@ -7,7 +7,7 @@ $(function(){
     
     var controller = new ScrollMagic.Controller();
     
-    if(window.matchMedia("(max-width: 600px)").matches){
+    if(window.matchMedia("(max-width: 920px)").matches){
         var profilePhotoTween = TweenMax.to("#profilePhoto", 100, {y: -150});
         var profileDescriptionTween = TweenMax.to("#profileDescription", 100, {y: 125, opacity: 1});
     }else{
