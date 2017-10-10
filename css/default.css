@@ -117,30 +117,3 @@ body{
     font-size: 48px;
     font-weight: bold;
 }
-/*
-#skillSetDescription{
-    background-color: aliceblue;
-    padding-top: 50px;
-    border-top: 20px solid darkmagenta;
-    top: 120%;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    color: navy;
-}
-#contactMeLinks{
-    background-color: aliceblue;
-    color: black;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    opacity: 1;
-    text-decoration: none;
-    padding-top: 20%;
-}
-.textProperties span{
-    color: black;
-    font-size: 48px;
-    font-weight: bold;
-}
-*/
