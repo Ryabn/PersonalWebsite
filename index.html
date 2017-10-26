@@ -1,125 +1,116 @@
 <!DOCTYPE html>
 
-<html lang = "en">    
+<html lang="en-US">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108710625-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-108710625-1');
+        </script>
         <title>
-            Ryan (Qiurui) Yang
+            Ryan Yang
         </title>
-        
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!--bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <!-- animate.css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- ScrollMagic -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
-        <!-- link to css file -->
-        <link href = "css/default.css" rel = "stylesheet" type = "text/css">
-        <!-- link to js file -->
-        <script type="text/javascript" src="js/script.js"></script>
-        <!--fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
     </head>
+    
     <body>
-        <div id = "coverPhoto">
-            <img id = "profilePhoto" class = "animated fadeIn" src = "images/profilepicture.png">
-            <div id = "profileDescription" class = "textProperties">
-                Ryan (Qiurui) Yang
-                <br>
-                Arcadia High School
-                <br>
-                Pasadena City College
+        <div class="bgimage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container">
-            <div class="skillSection">
-                <div class="row">
-                    <div class="col-lg-8 ml-auto">
-                        <div class="skillSubSection">
-                            <span>about me:</span>
-                            <br>
-                            I'm currently a first year student at Pasadena City College and I currently plan on becoming a CS major. Not only am I interested in computer science, but I am also attracted to engineering. On a more specific note, I'm interested in AI and that just happens to be where computer science and engineering meet! On my github, you'll find plently of projects that reflect that.
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <div class="skillSubSection">
-                            <span>skills:</span>
-                            <br>
-                            <ul class="skillSubList">
-                                <li>Java</li>
-                                <li>Swift</li>
-                                <li>HTML</li>
-                                <li>CSS w/ libraries</li>
-                                <li>JS</li>
-                                <li>Git</li>
-                            </ul>
-                        </div>
+            <div class="row">
+                <div class="col-12">
+                    <img class="downArrow" src="images/arrowDown.png"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-5 ml-auto">
+                    <div class="about description">
+                        <h1>Who Am I?</h1>
+                        &emsp;I'm currently a first year student at Pasadena City College and I currently plan on becoming a CS major. Not only am I interested in computer science, but I am also attracted to engineering. On a more specific note, I'm interested in AI and that just happens to be where computer science and engineering meet! On my github, you'll find plently of projects that reflect that. 
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="images/mainProject.jpg" class="img-fluid rounded projectMainImage">
+                <div class="col-12 col-md-5 mr-auto">
+                    <div class="about description borderl">
+                        <h1>Skill Set</h1>
+                        <p>&emsp;I'm fluent in front-end developement and am capable of writing in HTML/CSS and JS. Furthermore, I am also capable of object-oriented programming, my most comfortable languages being Java and Swift. In terms of code development, I am experienced in using Git and will fit in any dev environment that uses this kind of code management.
+                        </p>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="projectMain">
-                            <h1>Current Project:</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="myProjects">
+                        View My Projects:
+                    </div>
+                </div>
+            </div>
+            <div class="projectBorder">
+                <div class="row">
+                    <div class="col-5 ml-auto">
+                        <div class="currentProjectImage"></div>
+                    </div>
+                    <div class="col-5 mr-auto">
+                        <div class="currentProject">
+                            <h1>Quadrupod</h1>
                             I've spent about 20USD and around 5 hours and have one programmed leg down. I'm currently waiting for my other parts (servos, servo arm/brackets) to come in so I can finish the other 3 legs. After that, I'm planning on maybe adding 2 other legs as 6 legs would allow me to program more fluid movements as well as a more responsive body. It's currently programmed to only work on flat surfaces (I used flat values for movement rather than variables), I plan on adding pressure sensors to the legs to ensure stability on the system when it crawls over uneven surfaces.
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="projectSubs ps1">
-                            <a class="projectSubLinks" href="https://github.com/drinkWaterToQuenchThirst/SequenceMemoryGame">
-                                <h1>iOS App w/ Swift 3</h1>
-                            </a>
-                            Simple ios game that tests a person's ability to recall a sequence that is shown to them. As the levels progress, the sequence gets longer and longer.
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-12x">
+                    <div class="projectNames">
+                        <div class="fearFilter projectImage"></div>
+                        <a href = "https://github.com/drinkWaterToQuenchThirst/DubhacksProject">Fear Filter</a>
+                        <p>Fear Filter is a chrome extension that checks every single image that is displayed on your screen and utilizes Microsoft's Computer Vision to determine if the image triggers a user's phobia.</p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="projectSubs ps2">
-                            <a class="projectSubLinks" href="https://github.com/drinkWaterToQuenchThirst/stockValueScraper">
-                                <h1>Stock Value Scraper</h1>
-                            </a>
-                            Small python script that takes in the name of a company and outputs details of the company's stock value. (information is live and parses the NASDAQ website)
-                        </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="projectNames">
+                        <div class="stockValue projectImage"></div>
+                        <a href = "https://github.com/drinkWaterToQuenchThirst/stockValueScraper">Stock Value Data Scraper</a>
+                        <p>Small python script that takes in the name of a company and outputs details of the company's stock value. (information is live and parses the NASDAQ website) 
+                        </p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="projectSubs ps3">
-                            
-                            <a class="projectSubLinks" href="https://github.com/drinkWaterToQuenchThirst/randomIntGame">
-                                <h1>Rand. Number Guesser</h1>
-                            </a>
-                            This one's actually really old. I wrote this back when I was in 8th grade but I don't have much to show with Java. I plan on doing some Java programs at future hackathons.
-                        </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="projectNames">
+                        <div class="cssFrameworks projectImage"></div>
+                        <a href = "https://github.com/drinkWaterToQuenchThirst/CSSFrameworks">CSS Frameworks</a>
+                        <p>Basic understanding of front end development with emphasis on core frameworks such as Bootstrap 4.0.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 mr-lg-auto">
+                    <div class="projectNames">
+                        <div class="sequenceMemory projectImage"></div>
+                        <a href="https://github.com/drinkWaterToQuenchThirst/SequenceMemoryGame">Sequence Memory Game</a>
+                        <p>Level-based iOS game that test the player's memory by demonstrating a pattern to which the user need to repeat in the exact same order.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class ="contactBG">
-            <div class="container">
+        <div class="github">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="contactMe textProperties">
-                        <span> Contact Me: </span>
+                    <div class="col-md-6 col-12 mr-auto ml-auto">
+                            Find me on Github at:
+                            <a href="https://github.com/drinkWaterToQuenchThirst"> DrinkWaterToQuenchThirst </a>
                         <br>
-                        <strong>
-                            Github:
-                        </strong>
-                        <a class="projectSubLinks" href = "https://github.com/drinkWaterToQuenchThirst">Link</a>
-                            <br>
-                        <strong>
-                            Email:
-                        </strong> 
-                            ryanqyang@gmail.com
-                        </div>
+                            or email me at: qyang20@go.pasadena.edu
                     </div>
                 </div>
             </div>

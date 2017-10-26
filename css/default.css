@@ -1,119 +1,95 @@
 body{
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: aliceblue;
+    background-color: black;
+    color:white;
 }
-@media only screen and (max-width: 920px) {
-    #skillSetDescription{
-        margin-top: 80px;
-    }
-    #coverPhoto{
-        height: 800px;
-    }
-    #profileDescription{
-        margin-left: -200px;
-    }
+.bgimage{
+    background-image: url(../images/coverpicture.jpg);
+    background-position: 30% 50%;
+    background-size: cover;
+    height: 88vh;
+    border-bottom: solid 10px magenta;
 }
-
-.textProperties{
+.bgimage span{
+    font-size: 100px;
     text-align: center;
 }
-#coverPhoto{
-    background-image: url("../images/coverpicture.jpg");
-    height: 140vh;
-    background-attachment: fixed;
+.quote{
+    font-family: 'Roboto Slab', serif; 
+}
+.downArrow{
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+.about{
+    font-size: 32px;
+}
+.description{
+    margin-top: 50px;
+    font-size: 24px;
+}
+.description h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.borderl{
+    margin-left: -20px;
+    padding-left: 20px;
+    border-left: solid 5px orange;
+}
+.myProjects{
+    margin-top: 100px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.projectBorder{
+    padding-bottom: 50px;
+    border-bottom: 5px solid orange;
+}
+.currentProjectImage{
+    height: 400px;
+    border-radius: 300px 20px 20px 20px;
+    background-image: url(../images/mainProject.jpg);
     background-position: center;
     background-size: cover;
 }
-
-#profilePhoto{
-	position: absolute;
-    top: 25%;
-    left: 50%;
-    margin-left: -150px;
-    width: 300px;
-    z-index: 1;
+.currentProject{
+    font-size: 18px;
 }
-
-#profileDescription{
-	position: absolute;
-    background-color: black;
-    font-size:36px;
-    color: white;
-    border-radius: 30px;
-    border: 5px solid white;
-    top: 30%;
-    left: 50%;
-    height: 160px;
-    width: 400px;
-    opacity: 0;
-}
-.skillSection{
-    border-top: 15px solid blueviolet;
-    padding-top: 20px;
-}
-.skillSubSection{
-    color: #fffed1;
-    background-color: #4981d8;
-    font-size: 24px;
-    border: 10px solid orange;
-    border-radius: 15px 50px;
-    padding: 0px 25px 20px 20px;
-    margin-bottom: 20px;
-}
-
-.skillSubSection span{
-    font-weight: bold;
-    color: white;
-    font-size: 48px;
-    padding-left: 35px;
-}
-.skillSubList{
-    font-size: 26px;
-}
-.projectMainImage{
-    margin-bottom: 20px;
-}
-.projectMain{
-    padding: 15px 25px 20px 20px;
-    border: 10px solid greenyellow;
-    border-radius: 50px 15px;
-    color: #ffdd93;
-    background-color: #4f688e;
+.projectNames{
     font-size: 20px;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
-.projectSubs{
-    color: #ffc851;
-    border: 10px solid lightblue;
-    background-color: #133a77;
-    margin-bottom: 20px;
+.fearFilter{
+    background-image: url(../images/fearFilter.png);
 }
-.ps1{
-    padding: 15px 25px 20px 20px;
-    border-radius: 15px 15px 15px 50px;
+.stockValue{
+    background-image: url(../images/stockScraper.png);
 }
-.projectSubLinks{
-    color: white;
+.cssFrameworks{
+    background-image: url(../images/cssFrameworks.png);
 }
-.ps2{
-    padding: 15px 25px 20px 20px;
-    border-radius: 15px;
+.sequenceMemory{
+    background-image: url(../images/sequenceMemory.png);
 }
-.ps3{
-    padding: 15px 25px 20px 20px;
-    border-radius: 15px 15px 50px 15px;
+.projectImage{
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    margin: 0 auto;
 }
-.contactBG{
-    background-color: #441663;
-}
-.contactMe{
-    padding: 20px;
-    color: #f6fca1;
-    font-size: 32px;
-}
-.contactMe span{
-    color: #fffa00;
-    font-size: 48px;
-    font-weight: bold;
+.github{
+    border-top: 10px solid #380099;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4c14ad;
 }
