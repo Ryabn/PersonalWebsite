@@ -3,6 +3,10 @@ body{
     background-color: black;
     color:white;
 }
+a{
+    font-size: 26px;
+    text-decoration: underline;
+}
 .bgimage{
     background-image: url(../images/coverpicture.jpg);
     background-position: 30% 50%;
@@ -62,6 +66,12 @@ body{
     font-size: 20px;
     text-align: center;
     margin-top: 50px;
+    background-color: #ededed;
+    padding: 25px 10px 3px 10px;
+    border: 5px solid #c6c6c6;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    color: black;
 }
 .fearFilter{
     background-image: url(../images/fearFilter.png);
@@ -82,6 +92,7 @@ body{
     width: 160px;
     border-radius: 80px;
     margin: 0 auto;
+    border: 5px solid black;
 }
 .github{
     border-top: 10px solid #380099;
